@@ -1,0 +1,283 @@
+html, body, div, span,  object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, i, 
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figure, figcaption, footer, header, hgroup,
+menu, nav, output, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+html {
+  line-height: 1;
+  height: 100%;
+}
+ol, ul {
+  list-style: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: inline block;
+}
+* {
+  outline: none;
+}
+body {
+	min-height: 100%;
+	font-family: 'Arimo', sans-serif;
+	color: white;
+	text-align: center;
+	line-height: 10px;
+	padding-top: 30px;
+}
+html, .bg {
+	width:100%;	
+	height: 100%;
+	position: absolute;
+	position:fixed;
+	top: 0;
+	left: 0;
+	z-index:-5000;
+}
+a:link {
+  color:white;
+  text-decoration: none;
+}
+a:visited{
+  color:white;
+  text-decoration: none;
+}
+a:hover{
+  color: #CCFFFF;
+  text-decoration: underline;
+}
+
+/*Header Info*/
+header {
+	color: white;
+	line-height: 50px;
+	text-align: center;
+	width: 100%;
+}
+header h1 {
+  font-size: 34px;
+}
+header h4 {
+  font-size: 20px;
+}
+
+/*Main Page Text*/
+article {
+  width: 100%;
+  max-width: 1233px;
+  margin: 0 auto;
+}
+
+/*Sections */
+#boxedSections {
+  width: 100%;
+  background: transparent;
+  padding-top: 50px;
+  text-align: center;
+  color:white;
+}
+
+/*If we want to add a section header like 'About' or something */
+#boxedSections h3 {
+  width: 100%;
+  text-align: center;
+  font-size: 34px;
+  letter-spacing: 7px;
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+/*CSS for each of the individual boxes (e.g., "Who This is For")*/
+#boxedSections section {
+  width: 100%;
+  max-width: 1233px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding-bottom: 45px;
+}
+#boxedSections section ul {
+  overflow: hidden;
+  *zoom: 1;
+  width: 92.3%;
+  margin: 0 3.85%;
+  max-width: 1233px;
+  text-align: center;
+  color:white;
+}
+#boxedSections section ul li {
+  float: left;
+  margin-right: -100%;
+  width: 100%;
+  text-align: center;
+  color:white;
+}
+#boxedSections section ul li h4 {
+  width: 100%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: white;
+}
+#boxedSections section ul li div p {
+  width: 100%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: white;
+  line-height: 20px;
+}
+#boxedSections section ul li div div p {
+  width: 100%;.
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: white;
+  line-height: 20px;
+}
+.whoFor .weFew {
+	display: none;
+	background-color: #333333;
+	padding:0.5em;
+	opacity: 0.8;
+}
+.whoFor:hover .weFew {
+	display: block;
+}
+.whoFor:hover .More {
+	display:none;
+}
+
+#boxedSections section ul li img {
+  display: inline block;
+  width: 100%;
+  max-width: 251px;
+  margin: 0 auto;
+  height: 100%;
+}
+#boxedSections section ul li:nth-child(1n+1) {
+  margin-left: 0%;
+  margin-bottom: 3.85%;
+  clear: both;
+  overflow: hidden;
+  *zoom: 1;
+  text-align: center;
+}
+@media screen and (min-width: 460px) {
+  #boxedSections h4 {
+    font-size: 26px;
+    line-height: 33px;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+}
+@media screen and (min-width: 550px) {
+  #boxedSections h4 {
+    font-size: 28px;
+    line-height: 38px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+@media screen and (min-width: 700px) {
+  #boxedSections h4 {
+    font-size: 30px;
+    line-height: 38px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  #boxedSections section {
+    margin-top: 10px;
+  }
+  #boxedSections section {
+    padding-bottom: 25px;
+  }
+  #boxedSections section ul li {
+    float: left;
+    margin-right: -100%;
+    width: 30.77%;
+  }
+  #boxedSections section ul li:nth-child(3n+1) {
+    margin-left: 0%;
+    margin-bottom: 3.85%;
+    clear: both;
+    overflow: hidden;
+    *zoom: 1;
+  }
+  #boxedSections section ul li:nth-child(3n+2) {
+    margin-left: 34.62%;
+    margin-bottom: 3.85%;
+    clear: none;
+  }
+  #boxedSections section ul li:nth-child(3n+3) {
+    margin-left: 69.23%;
+    margin-bottom: 3.85%;
+    clear: none;
+  }
+}
+@media screen and (min-width: 900px) {
+  #boxedSections h4 {
+    font-size: 32px;
+    line-height: 48px;
+    max-width: 800px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+/*Footer*/
+footer {
+  position: absolute;
+  bottom: 0;
+  background:transparent;
+  width: 100%;
+  line-height: 20px;
+}
+footer h3 {
+  background:transparent;
+  text-align: center;
+  color:#FFFFCC;
+  letter-spacing: 3px;
+}
+footer h3 a:link{
+  color:#FFFFCC;
+}
+footer h3 a:hover{
+  color: white;
+}
+footer h3 a:visited{
+  color:#FFFFCC;
+}
+footer h4 {
+  background:transparent;
+  text-align: center;
+  color:#FFFFCC;
+  letter-spacing: 1px;
+}
+
