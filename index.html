@@ -1,76 +1,30 @@
 <!DOCTYPE html>
-<html align="center"><img src="sustainability.png" class="bg">
-	<link rel="stylesheet" type="text/css" href="index.css">
-	<link href='https://fonts.googleapis.com/css?family=Arimo:400,400italic,700' rel='stylesheet' type='text/css'>
+<html>
 <head>
-	<title>Preparing | Future</title>
-	<meta name="viewport" content="initial-scale=1">
-	<meta http-equiv="content-type" content="text/html">
-	<meta name="title" content = "Preparing for the Future | A Help Center for CCBS">
-	<meta name "keywords" content = "sustainability, behavior analysis, future, energy resources, ecology, environment, social practices, consumption, culture">
+<link rel="stylesheet" type="text/css" href="skeleton.css">
+<link rel="stylesheet" type="text/css" href="main.css">
+	<title>U-05-1096</title>
 </head>
 <body>
-	<header >
-		<h1>Preparing for the Future</h1>
-		<h4>A Help Center for <a href="http://www.behavior.org/index.php">CCBS</a></h4>
-	</header>
-	<div class="separator"></div>
-	<article id="boxedSections">
-		<section>
-		<ul>
-			<li>
-				<h4>We Happy Few</h4>
-				<div class="whoFor">
-					<p>This help center is for a special kind of people...</p>
-					<p class="More">(More)</p>
-					<div class="weFew">
-						<p id="weFew">This help center is for a special kind of people, those who are aware of the urgency of changing our personal daily habits in light of worldwide trends. King Henry in his St. Crispen's Day Speech, (William Shakespeare, 1599) refers to his soldiers as "We few, we happy few, we band of brothers."  Here at this CCBS center we will refer to the "we happy few" as those of us who are especially concerned about the world trends and how we can take personal action with respect to them.  Our focus is upon the excessive consumption of natural resources, pollution of the environment, warfare happening due to dwindling energy resources, and further evolution of personal and social practices that cannot be sustained by available natural resources and ecology.  We happy few are those who are less committed to the control exerted by the agencies of capital accumulation, consumerism, government, and religion.  We are less committed to agencies within our culture that are concerned primarily with the present rather than the future.  Therefore, we happy few are freer to respond to the advice of science about what is likely to happen.</p>
-					</div>
-				</div>
-			</li>
-			<li>
-				<h4>What We Do</h4>
-				<div class="whoFor">
-					<p>But the predictions of scientists can have little effect...</p>
-					<p class="More">(More)</p>
-					<div class="weFew">
-						<p id="weFew">But the predictions of scientists can have little effect without our help. That help is our acts of <span style="font-weight:bold">mediation</span>, in other words, the management of current daily behavior on behalf of generations that will follow us. However, this help center will not propose political agendas or political solutions. In contrast, it will advocate that intercession into the lives of others is best accomplished by <span style="font-weight:bold">setting good personal examples</span> that might exploit any tendency of others imitate us.  </p>
-					</div>
-				</div>
-			</li>
-			<li>
-				<h4>Using This Help Center</h4>
-				<div class="whoFor">
-					<p>This CCBS center is for those willing to...</p>
-					<p class="More">(More)</p>
-					<div class="weFew">
-						<p id="weFew">This CCBS center if for those willing to curtail our personal behavior patterns that do not promote survival of a livable world.  Fortunately, the curtailment of consumption does not necessarily mean curtailment of happiness.   A high standard of living does not necessary mean a high standard of consumption.    Indeed, links at this help center will connect with ways if increasing personal happiness as we convert to lifestyles that are far less consuming and are sustainable. </p>
-					</div>
-				</div>
-			</li>
-			<li>
-			</li>
-			<li>
-				<h4>Executive Summaries</h4>
-				<div class="whoFor">
-					<p>Problems and Behavior Analytic Solutions.</p>
-					<p class="More">(More...)</p>
-					<div class="weFew">
-						<p id="weFew">Here's where we can put the links to branches. Executive summaries can be the main lines. By clicking on the executive summaries it can link to a page with a behavioral analysis of the problem, potential solutions, and ways of taking personal action in our daily lives.</p>
-					</div>
-				</div>
-			</li>
+	<h1>Study U-05-1096</h1>
+	<div class="container">
+		<form id="startForm" name="startForm" action ="handler">
+			<label for="fName">First Name</label>
+			<input type="text" name ="fName" placeholder="first name" required>
 
-		</ul>
-		</section>
-	</article>
-	<footer>
-		<div class="copyright">
-			<h3>BUILT BY: <a href="http://davidjcox.xyz"> davJCdev</a></h3>
-			<h4 id = "devName">Copyright &copy 2015 DavJCDev. All rights reserved.</h4>
-		</div>
-	</footer>
+			<label for="lName">Last Name</label>
+			<input type="text" name ="lName" placeholder="last name" required>
+
+			<label for="email">Email</label>
+			<input type="email" name ="email" id="email" placeholder="email address" required>
+
+			<label for="aCode">Access Code</label>
+			<input type="text" name ="aCode" placeholder="access code" required>
+
+			<p><input id="btnSubmit" type="submit" class="button-primary" onclick="return btnSubmit_onclick()"/></p>
+		</form>
+	</div>
+
 	<script type="text/javascript" src="script.js"></script>
-
 </body>
 </html>
