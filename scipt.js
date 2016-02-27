@@ -21,7 +21,7 @@ function btnSubmit_onclick() {
 		return false;	
 	}
 	if (aCode=="access") {
-		window.location.href="menu.html";
+		window.location="menu.html";
 	}
 }
 
