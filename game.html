@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="skeleton.css">
+<link rel="stylesheet" type="text/css" href="main.css">
+	<title>Game</title>
+</head>
+<body>
+	<h1>Choose which you would prefer...</h1>
+	<div class="gameAv" style="position: relative; left 0; top:0;">
+		<a href="game.html"><img class="avatar12" id="av1-2" src= "blueAvatar.jpg" style="position:absolute; top 0px; left: 0px; display:none;"/></a>
+
+		<a href="game.html"><img class="avatar2" id="av2-2" src= "redAvatar.jpg" style="position:absolute; top 0px; left: 0px; display:none;"/></a>
+
+		<a href="game.html"><img class="avatar32" id="av3-2" src= "greenAvatar.jpg" style="position:absolute; top 0px; left: 0px; display:none;"/></a>
+
+		<a href="game.html"><img class="avatar42" id="av4-2" src= "yellowAvatar.jpg" style="position:absolute; top 0px; left: 0px; display:none;"/></a>
+
+	</div>
+	<div class="choice">
+		<button id="indChoice" onclick="return indChoice_onclick(); return ITIcountdown_onclick()">
+			<h5>10 points for you</h5>
+			<h5>0 for the group</h5>
+		</button>
+		<button id="grpChoice" onclick="return grpChoice_onclick()">
+			<h5>6 points for you</h5> 
+			<h5>6 for the group</h5>
+		</button>
+	</div>
+	<div class="points">
+		<div>
+			<h4>You've earned</h4>
+			<h5 id="indPointsEarned">0</h5>
+			<h4>points.</h4>
+		</div>
+		<div>
+			<h4>The group has earned</h4>
+			<h5  id="grpPointsEarned">0</h5>
+			<h4>points.</h4>
+		</div>
+		<div>
+			<h4>That equals an additional</h4>
+			<h5 id="indFromGrp">0</h5>
+			<h4>points for you.</h4>
+		</div>
+	</div>
+	<div>
+		<p id="indRespCount">0</p>
+		<p id="grpRespCount">0</p>
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
