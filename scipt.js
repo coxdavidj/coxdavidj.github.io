@@ -21,7 +21,7 @@ function btnSubmit_onclick() {
 		return false;	
 	}
 	if (aCode=="access") {
-		window.location.href="http://davidjcoxresearch.xyz/menu.html";
+		window.location.href="coxdavidj.github.io/menu.html";
 	}
 }
 
